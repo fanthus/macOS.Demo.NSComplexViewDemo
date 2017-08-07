@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B54FCC7D1F3889B10015EFD6 /* FRAddRowPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54FCC7C1F3889B10015EFD6 /* FRAddRowPanel.xib */; };
 		B59BE80C1F384B6F00D830E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE80B1F384B6F00D830E0 /* AppDelegate.m */; };
 		B59BE80E1F384B6F00D830E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59BE80D1F384B6F00D830E0 /* Assets.xcassets */; };
 		B59BE8111F384B6F00D830E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59BE80F1F384B6F00D830E0 /* MainMenu.xib */; };
 		B59BE8141F384B6F00D830E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE8131F384B6F00D830E0 /* main.m */; };
 		B59BE81F1F384B6F00D830E0 /* NSTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE81E1F384B6F00D830E0 /* NSTableViewDemoTests.m */; };
 		B59BE82A1F384B6F00D830E0 /* NSTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE8291F384B6F00D830E0 /* NSTableViewDemoUITests.m */; };
+		B59BE83C1F384BBE00D830E0 /* FRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE83A1F384BBE00D830E0 /* FRTableViewController.m */; };
+		B59BE83D1F384BBE00D830E0 /* FRTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59BE83B1F384BBE00D830E0 /* FRTableViewController.xib */; };
+		B59BE8481F3863AB00D830E0 /* FRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE8471F3863AB00D830E0 /* FRPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B54FCC7C1F3889B10015EFD6 /* FRAddRowPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRAddRowPanel.xib; sourceTree = "<group>"; };
 		B59BE8071F384B6F00D830E0 /* NSTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59BE80A1F384B6F00D830E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B59BE80B1F384B6F00D830E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		B59BE8251F384B6F00D830E0 /* NSTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59BE8291F384B6F00D830E0 /* NSTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTableViewDemoUITests.m; sourceTree = "<group>"; };
 		B59BE82B1F384B6F00D830E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59BE8391F384BBE00D830E0 /* FRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRTableViewController.h; sourceTree = "<group>"; };
+		B59BE83A1F384BBE00D830E0 /* FRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTableViewController.m; sourceTree = "<group>"; };
+		B59BE83B1F384BBE00D830E0 /* FRTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRTableViewController.xib; sourceTree = "<group>"; };
+		B59BE8461F3863AB00D830E0 /* FRPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPerson.h; sourceTree = "<group>"; };
+		B59BE8471F3863AB00D830E0 /* FRPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,12 @@
 			children = (
 				B59BE80A1F384B6F00D830E0 /* AppDelegate.h */,
 				B59BE80B1F384B6F00D830E0 /* AppDelegate.m */,
+				B59BE8391F384BBE00D830E0 /* FRTableViewController.h */,
+				B59BE83A1F384BBE00D830E0 /* FRTableViewController.m */,
+				B59BE83B1F384BBE00D830E0 /* FRTableViewController.xib */,
+				B59BE8461F3863AB00D830E0 /* FRPerson.h */,
+				B59BE8471F3863AB00D830E0 /* FRPerson.m */,
+				B54FCC7C1F3889B10015EFD6 /* FRAddRowPanel.xib */,
 				B59BE80D1F384B6F00D830E0 /* Assets.xcassets */,
 				B59BE80F1F384B6F00D830E0 /* MainMenu.xib */,
 				B59BE8121F384B6F00D830E0 /* Info.plist */,
@@ -230,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59BE80E1F384B6F00D830E0 /* Assets.xcassets in Resources */,
+				B54FCC7D1F3889B10015EFD6 /* FRAddRowPanel.xib in Resources */,
+				B59BE83D1F384BBE00D830E0 /* FRTableViewController.xib in Resources */,
 				B59BE8111F384B6F00D830E0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59BE8481F3863AB00D830E0 /* FRPerson.m in Sources */,
 				B59BE8141F384B6F00D830E0 /* main.m in Sources */,
 				B59BE80C1F384B6F00D830E0 /* AppDelegate.m in Sources */,
+				B59BE83C1F384BBE00D830E0 /* FRTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

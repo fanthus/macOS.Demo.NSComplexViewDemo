@@ -7,16 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "FRTableViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    //
+}
 
 @property (weak) IBOutlet NSWindow *window;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    FRTableViewController *frtablevc = [[FRTableViewController alloc] initWithNibName:@"FRTableViewController" bundle:nil];
+    self.window.contentViewController = frtablevc;
 }
 
 
