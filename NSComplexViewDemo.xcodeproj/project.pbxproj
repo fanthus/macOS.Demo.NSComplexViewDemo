@@ -13,6 +13,11 @@
 		B56188951FD3EEF100E4BC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56188941FD3EEF100E4BC95 /* Assets.xcassets */; };
 		B56188981FD3EEF100E4BC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56188961FD3EEF100E4BC95 /* Main.storyboard */; };
 		B561889B1FD3EEF100E4BC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B561889A1FD3EEF100E4BC95 /* main.m */; };
+		B56188C41FD3F53200E4BC95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56188C31FD3F53200E4BC95 /* AppDelegate.m */; };
+		B56188C71FD3F53200E4BC95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56188C61FD3F53200E4BC95 /* ViewController.m */; };
+		B56188C91FD3F53200E4BC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56188C81FD3F53200E4BC95 /* Assets.xcassets */; };
+		B56188CC1FD3F53200E4BC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56188CA1FD3F53200E4BC95 /* Main.storyboard */; };
+		B56188CF1FD3F53200E4BC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56188CE1FD3F53200E4BC95 /* main.m */; };
 		B59BE80C1F384B6F00D830E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59BE80B1F384B6F00D830E0 /* AppDelegate.m */; };
 		B59BE80E1F384B6F00D830E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59BE80D1F384B6F00D830E0 /* Assets.xcassets */; };
 		B59BE8111F384B6F00D830E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59BE80F1F384B6F00D830E0 /* MainMenu.xib */; };
@@ -34,14 +39,23 @@
 		B56188991FD3EEF100E4BC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B561889A1FD3EEF100E4BC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B561889C1FD3EEF100E4BC95 /* NSOutlineViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSOutlineViewDemo.entitlements; sourceTree = "<group>"; };
-		B59BE8071F384B6F00D830E0 /* NSTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56188C01FD3F53200E4BC95 /* NSTableViewNoXIBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableViewNoXIBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56188C21FD3F53200E4BC95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B56188C31FD3F53200E4BC95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56188C51FD3F53200E4BC95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B56188C61FD3F53200E4BC95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B56188C81FD3F53200E4BC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56188CB1FD3F53200E4BC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56188CD1FD3F53200E4BC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56188CE1FD3F53200E4BC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B56188D01FD3F53200E4BC95 /* NSTableViewNoXibDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableViewNoXibDemo.entitlements; sourceTree = "<group>"; };
+		B59BE8071F384B6F00D830E0 /* NSTableViewXIBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTableViewXIBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59BE80A1F384B6F00D830E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B59BE80B1F384B6F00D830E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B59BE80D1F384B6F00D830E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B59BE8101F384B6F00D830E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B59BE8121F384B6F00D830E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59BE8131F384B6F00D830E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B59BE8151F384B6F00D830E0 /* NSTableViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableViewDemo.entitlements; sourceTree = "<group>"; };
 		B59BE8391F384BBE00D830E0 /* FRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRTableViewController.h; sourceTree = "<group>"; };
 		B59BE83A1F384BBE00D830E0 /* FRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTableViewController.m; sourceTree = "<group>"; };
 		B59BE83B1F384BBE00D830E0 /* FRTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRTableViewController.xib; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		B56188891FD3EEF100E4BC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56188BD1FD3F53200E4BC95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,10 +104,27 @@
 			path = NSOutlineViewDemo;
 			sourceTree = "<group>";
 		};
+		B56188C11FD3F53200E4BC95 /* NSTableViewNoXIBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B56188C21FD3F53200E4BC95 /* AppDelegate.h */,
+				B56188C31FD3F53200E4BC95 /* AppDelegate.m */,
+				B56188C51FD3F53200E4BC95 /* ViewController.h */,
+				B56188C61FD3F53200E4BC95 /* ViewController.m */,
+				B56188C81FD3F53200E4BC95 /* Assets.xcassets */,
+				B56188CA1FD3F53200E4BC95 /* Main.storyboard */,
+				B56188CD1FD3F53200E4BC95 /* Info.plist */,
+				B56188CE1FD3F53200E4BC95 /* main.m */,
+				B56188D01FD3F53200E4BC95 /* NSTableViewNoXibDemo.entitlements */,
+			);
+			path = NSTableViewNoXIBDemo;
+			sourceTree = "<group>";
+		};
 		B59BE7FE1F384B6E00D830E0 = {
 			isa = PBXGroup;
 			children = (
-				B59BE8091F384B6F00D830E0 /* NSTableViewDemo */,
+				B59BE8091F384B6F00D830E0 /* NSTableViewXIBDemo */,
+				B56188C11FD3F53200E4BC95 /* NSTableViewNoXIBDemo */,
 				B561888D1FD3EEF100E4BC95 /* NSOutlineViewDemo */,
 				B59BE8081F384B6F00D830E0 /* Products */,
 			);
@@ -95,13 +133,14 @@
 		B59BE8081F384B6F00D830E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B59BE8071F384B6F00D830E0 /* NSTableViewDemo.app */,
+				B59BE8071F384B6F00D830E0 /* NSTableViewXIBDemo.app */,
 				B561888C1FD3EEF100E4BC95 /* NSOutlineViewDemo.app */,
+				B56188C01FD3F53200E4BC95 /* NSTableViewNoXIBDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B59BE8091F384B6F00D830E0 /* NSTableViewDemo */ = {
+		B59BE8091F384B6F00D830E0 /* NSTableViewXIBDemo */ = {
 			isa = PBXGroup;
 			children = (
 				B59BE80A1F384B6F00D830E0 /* AppDelegate.h */,
@@ -116,9 +155,8 @@
 				B59BE80F1F384B6F00D830E0 /* MainMenu.xib */,
 				B59BE8121F384B6F00D830E0 /* Info.plist */,
 				B59BE8131F384B6F00D830E0 /* main.m */,
-				B59BE8151F384B6F00D830E0 /* NSTableViewDemo.entitlements */,
 			);
-			path = NSTableViewDemo;
+			path = NSTableViewXIBDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +179,26 @@
 			productReference = B561888C1FD3EEF100E4BC95 /* NSOutlineViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B59BE8061F384B6F00D830E0 /* NSTableViewDemo */ = {
+		B56188BF1FD3F53200E4BC95 /* NSTableViewNoXIBDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B59BE82E1F384B6F00D830E0 /* Build configuration list for PBXNativeTarget "NSTableViewDemo" */;
+			buildConfigurationList = B56188E71FD3F53300E4BC95 /* Build configuration list for PBXNativeTarget "NSTableViewNoXIBDemo" */;
+			buildPhases = (
+				B56188BC1FD3F53200E4BC95 /* Sources */,
+				B56188BD1FD3F53200E4BC95 /* Frameworks */,
+				B56188BE1FD3F53200E4BC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTableViewNoXIBDemo;
+			productName = NSTableViewNoXibDemo;
+			productReference = B56188C01FD3F53200E4BC95 /* NSTableViewNoXIBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59BE8061F384B6F00D830E0 /* NSTableViewXIBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59BE82E1F384B6F00D830E0 /* Build configuration list for PBXNativeTarget "NSTableViewXIBDemo" */;
 			buildPhases = (
 				B59BE8031F384B6F00D830E0 /* Sources */,
 				B59BE8041F384B6F00D830E0 /* Frameworks */,
@@ -153,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = NSTableViewDemo;
+			name = NSTableViewXIBDemo;
 			productName = NSTableViewDemo;
-			productReference = B59BE8071F384B6F00D830E0 /* NSTableViewDemo.app */;
+			productReference = B59BE8071F384B6F00D830E0 /* NSTableViewXIBDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,8 +226,25 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
+					B56188BF1FD3F53200E4BC95 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
 					B59BE8061F384B6F00D830E0 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -189,7 +261,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B59BE8061F384B6F00D830E0 /* NSTableViewDemo */,
+				B59BE8061F384B6F00D830E0 /* NSTableViewXIBDemo */,
+				B56188BF1FD3F53200E4BC95 /* NSTableViewNoXIBDemo */,
 				B561888B1FD3EEF100E4BC95 /* NSOutlineViewDemo */,
 			);
 		};
@@ -202,6 +275,15 @@
 			files = (
 				B56188951FD3EEF100E4BC95 /* Assets.xcassets in Resources */,
 				B56188981FD3EEF100E4BC95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56188BE1FD3F53200E4BC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56188C91FD3F53200E4BC95 /* Assets.xcassets in Resources */,
+				B56188CC1FD3F53200E4BC95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +311,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B56188BC1FD3F53200E4BC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56188C71FD3F53200E4BC95 /* ViewController.m in Sources */,
+				B56188CF1FD3F53200E4BC95 /* main.m in Sources */,
+				B56188C41FD3F53200E4BC95 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B59BE8031F384B6F00D830E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +339,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B56188971FD3EEF100E4BC95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56188CA1FD3F53200E4BC95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56188CB1FD3F53200E4BC95 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -290,6 +390,36 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = Frank.NSOutlineViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B56188E81FD3F53300E4BC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D3Q47P8R6D;
+				INFOPLIST_FILE = NSTableViewNoXibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.NSTableViewNoXibDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B56188E91FD3F53300E4BC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D3Q47P8R6D;
+				INFOPLIST_FILE = NSTableViewNoXibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.NSTableViewNoXibDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -401,10 +531,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NSTableViewDemo/NSTableViewDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = NSTableViewDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NSTableViewXIBDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.NSTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,10 +544,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NSTableViewDemo/NSTableViewDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = NSTableViewDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NSTableViewXIBDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.NSTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +565,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B56188E71FD3F53300E4BC95 /* Build configuration list for PBXNativeTarget "NSTableViewNoXIBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56188E81FD3F53300E4BC95 /* Debug */,
+				B56188E91FD3F53300E4BC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B59BE8021F384B6E00D830E0 /* Build configuration list for PBXProject "NSComplexViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -446,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B59BE82E1F384B6F00D830E0 /* Build configuration list for PBXNativeTarget "NSTableViewDemo" */ = {
+		B59BE82E1F384B6F00D830E0 /* Build configuration list for PBXNativeTarget "NSTableViewXIBDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B59BE82F1F384B6F00D830E0 /* Debug */,

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B59BE8061F384B6F00D830E0"
-               BuildableName = "NSTableViewDemo.app"
-               BlueprintName = "NSTableViewDemo"
+               BuildableName = "NSTableViewXIBDemo.app"
+               BlueprintName = "NSTableViewXIBDemo"
                ReferencedContainer = "container:NSComplexViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B59BE8061F384B6F00D830E0"
-            BuildableName = "NSTableViewDemo.app"
-            BlueprintName = "NSTableViewDemo"
+            BuildableName = "NSTableViewXIBDemo.app"
+            BlueprintName = "NSTableViewXIBDemo"
             ReferencedContainer = "container:NSComplexViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B59BE8061F384B6F00D830E0"
-            BuildableName = "NSTableViewDemo.app"
-            BlueprintName = "NSTableViewDemo"
+            BuildableName = "NSTableViewXIBDemo.app"
+            BlueprintName = "NSTableViewXIBDemo"
             ReferencedContainer = "container:NSComplexViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -97,8 +97,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B59BE8061F384B6F00D830E0"
-            BuildableName = "NSTableViewDemo.app"
-            BlueprintName = "NSTableViewDemo"
+            BuildableName = "NSTableViewXIBDemo.app"
+            BlueprintName = "NSTableViewXIBDemo"
             ReferencedContainer = "container:NSComplexViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

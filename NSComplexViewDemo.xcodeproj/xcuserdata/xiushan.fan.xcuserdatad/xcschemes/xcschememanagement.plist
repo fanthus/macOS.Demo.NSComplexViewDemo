@@ -7,16 +7,26 @@
 		<key>NSOutlineViewDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
-		<key>NSTableViewDemo.xcscheme</key>
+		<key>NSTableViewNoXIBDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>NSTableViewXIBDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B56188BF1FD3F53200E4BC95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B59BE8061F384B6F00D830E0</key>
 		<dict>
 			<key>primary</key>
