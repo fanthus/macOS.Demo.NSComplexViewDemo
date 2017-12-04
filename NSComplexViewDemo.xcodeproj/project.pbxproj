@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B54FCC7D1F3889B10015EFD6 /* FRAddRowPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54FCC7C1F3889B10015EFD6 /* FRAddRowPanel.xib */; };
+		B5583A6E1FD4E3720060661A /* FRTreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583A6D1FD4E3720060661A /* FRTreeModel.m */; };
 		B56188901FD3EEF100E4BC95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B561888F1FD3EEF100E4BC95 /* AppDelegate.m */; };
 		B56188931FD3EEF100E4BC95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56188921FD3EEF100E4BC95 /* ViewController.m */; };
 		B56188951FD3EEF100E4BC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56188941FD3EEF100E4BC95 /* Assets.xcassets */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		B54FCC7C1F3889B10015EFD6 /* FRAddRowPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRAddRowPanel.xib; sourceTree = "<group>"; };
+		B5583A6C1FD4E3720060661A /* FRTreeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRTreeModel.h; sourceTree = "<group>"; };
+		B5583A6D1FD4E3720060661A /* FRTreeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTreeModel.m; sourceTree = "<group>"; };
 		B561888C1FD3EEF100E4BC95 /* NSOutlineViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOutlineViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B561888E1FD3EEF100E4BC95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B561888F1FD3EEF100E4BC95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				B561888F1FD3EEF100E4BC95 /* AppDelegate.m */,
 				B56188911FD3EEF100E4BC95 /* ViewController.h */,
 				B56188921FD3EEF100E4BC95 /* ViewController.m */,
+				B5583A6C1FD4E3720060661A /* FRTreeModel.h */,
+				B5583A6D1FD4E3720060661A /* FRTreeModel.m */,
 				B56188941FD3EEF100E4BC95 /* Assets.xcassets */,
 				B56188961FD3EEF100E4BC95 /* Main.storyboard */,
 				B56188991FD3EEF100E4BC95 /* Info.plist */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56188931FD3EEF100E4BC95 /* ViewController.m in Sources */,
+				B5583A6E1FD4E3720060661A /* FRTreeModel.m in Sources */,
 				B561889B1FD3EEF100E4BC95 /* main.m in Sources */,
 				B56188901FD3EEF100E4BC95 /* AppDelegate.m in Sources */,
 			);
